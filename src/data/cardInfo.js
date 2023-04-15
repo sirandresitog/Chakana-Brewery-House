@@ -10,7 +10,8 @@ const cardsInfo = [
 		img: killa,
 		type: 'Cerveza Oscura',
 		alt: 'Logotipo Cerveza Oscura Killa Porter Chakana brew House',
-		color: 'bg-gray-900',
+		color: 'bg-[#8FA8B8]',
+		ref: '#killa',
 	},
 	{
 		id: 2,
@@ -19,14 +20,7 @@ const cardsInfo = [
 		type: 'Cerveza Rubia',
 		alt: 'Logotipo Inti Blonde Ale porter Chakana brew House',
 		color: 'bg-rubio',
-	},
-	{
-		id: 3,
-		name: 'Viracocha I:P:A',
-		img: viracocha,
-		type: 'Cerveza Dorada',
-		alt: 'Logotipo Cerveza Dorada Viracocha I.P.A Chakana brew House',
-		color: 'bg-dorado',
+		ref: '#inti',
 	},
 	{
 		id: 4,
@@ -35,6 +29,16 @@ const cardsInfo = [
 		type: 'Cerveza Negra',
 		alt: 'Logotipo Cerveza Negra Quisato Stout Chakana brew House',
 		color: 'bg-red-900',
+		ref: '#quisato',
+	},
+	{
+		id: 3,
+		name: 'Viracocha I:P:A',
+		img: viracocha,
+		type: 'Cerveza Dorada',
+		alt: 'Logotipo Cerveza Dorada Viracocha I.P.A Chakana brew House',
+		color: 'bg-dorado',
+		ref: '#viracocha',
 	},
 ];
 

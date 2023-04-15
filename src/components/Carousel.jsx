@@ -1,13 +1,30 @@
 import postercards from '../data/postercards';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
+
 const Carousel = () => {
+	const [isMobile, setIsMobile] = useState(false);
+	useEffect(() => {
+		const mediaQuery = window.matchMedia('(max-width: 767px)');
+		setIsMobile(mediaQuery.matches);
+
+		const handleMediaQueryChange = (e) => setIsMobile(e.matches);
+		mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+		return () => {
+			mediaQuery.removeEventListener('change', handleMediaQueryChange);
+		};
+	}, []);
+
+	const leftPosition = isMobile ? -4100 : -3978;
+
 	return (
 		<motion.div className='w-full mt-0 mb-0 m-auto overflow-x-hidden '>
 			<motion.div
 				className=' h-[500px] flex cursor-grab'
 				drag='x'
-				dragConstraints={{ right: 0, left: -3748 }}>
+				dragConstraints={{ right: 0, left: leftPosition }}>
 				{postercards.map((postercard) => {
 					return (
 						<motion.div

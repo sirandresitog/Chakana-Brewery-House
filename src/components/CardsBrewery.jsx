@@ -14,29 +14,29 @@ const cards = () => {
 				<Image
 					src={killa}
 					alt='Logo cerveza chakana Principal'
-					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity '
+					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity hover:mix-blend-normal hover:opacity-100'
 					priority={true}
 				/>
 				<Image
 					src={inti}
 					alt='Logo cerveza chakana Principal'
-					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity '
+					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity hover:mix-blend-normal hover:opacity-100'
 					priority={true}
 				/>
 				<Image
 					src={quisato}
 					alt='Logo cerveza chakana Principal'
-					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity '
+					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity hover:mix-blend-normal  hover:opacity-100'
 					priority={true}
 				/>
 				<Image
 					src={viracocha}
 					alt='Logo cerveza chakana Principal'
-					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity '
+					className='h-auto w-1/4 rounded-sm opacity-50 mix-blend-luminosity hover:mix-blend-normal hover:opacity-100'
 					priority={true}
 				/>
 			</div>
-			<h1 className='font-extrabold text-3xl bg-slate-600  p-5 text-white text-center w-full mt-0 bg-small-chakana uppercase '>
+			<h1 className='font-extrabold text-3xl lg:bg-slate-600  p-5 text-white text-center w-full mt-0 bg-small-chakana uppercase lg:rounded-3xl lg:mb-20 '>
 				Nuestros Productos
 			</h1>
 

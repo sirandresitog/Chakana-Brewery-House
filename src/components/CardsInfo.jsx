@@ -9,7 +9,7 @@ const CardsInfo = () => {
 					<div
 						aria-label='Menu de Productos'
 						key={card.id}
-						className={`${card.color}  w-full cursor-pointer duration-500 p-8 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 text-center rounded-xl`}>
+						className={`${card.color}   w-full cursor-pointer duration-500 p-8 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 text-center rounded-xl`}>
 						<Image
 							src={card.img}
 							alt={card.alt}
@@ -20,7 +20,7 @@ const CardsInfo = () => {
 							{card.type}
 						</p>
 						<a
-							href='#'
+							href={card.ref}
 							aria-label='Mas Información'
 							className='bg-cyan-700 text-slate-300 py-1.5 px-4 text-sm rounded-full  hover:bg-blue-500'>
 							Mas Informacion

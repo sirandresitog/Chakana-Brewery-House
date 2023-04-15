@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import Link from 'next/link';
 import headerNavLinks from '../data/headerNavLinks';
@@ -60,7 +61,7 @@ const MobileNav = () => {
 					</button>
 				</div>
 				<nav className='fixed mt-8 h-full'>
-					{headerNavLinks.map((link) => {
+					{headerNavLinks.map((link) => (
 						<div
 							key={link.title}
 							className='px-12 py-4'>
@@ -70,8 +71,8 @@ const MobileNav = () => {
 								onClick={onToggleNav}>
 								{link.title}
 							</Link>
-						</div>;
-					})}
+						</div>
+					))}
 				</nav>
 			</div>
 		</div>

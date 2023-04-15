@@ -29,7 +29,7 @@ module.exports = {
 				celestedark: '#0081C9',
 				celesteligth: '#86E5FF',
 				verde: '#86c11d !important',
-				oscuro: '#111',
+				oscuro: '#000000',
 			},
 			animation: {
 				'spin-slow': 'spin 12s linear infinite',

@@ -8,7 +8,7 @@ const pageBrewey = () => {
 			<Head>
 				<title>Cervezas</title>
 			</Head>
-			<div className=' text-cyan-50 max-w-[70rem] lg:m-auto '>
+			<div className=' text-gray-300 max-w-[70rem] lg:m-auto mr-3 ml-3'>
 				<CardsBrewery />
 				<BreweryContent />
 			</div>
