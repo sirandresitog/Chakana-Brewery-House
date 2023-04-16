@@ -15,7 +15,7 @@ export default function Home() {
 				<title>Chakana Brew House</title>
 			</Head>
 			<main className='flex min-h-screen flex-col items-center justify-between   '>
-				<section className=' text-center max-w-[70rem]  lg:m-auto text-slate-50'>
+				<section className=' max-w-[70rem]  lg:m-auto text-slate-50'>
 					<Image
 						src={slidechakana}
 						priority={true}
@@ -24,18 +24,18 @@ export default function Home() {
 					/>
 					<section>
 						<h1
-							className='font-extrabold md:text-5xl lg:text-8xl '
-							aria-label='Chakana Brewhouse titulo 1'>
+							className=' font-extrabold md:text-5xl lg:text-8xl text-center '
+							aria-label='Chakana Brewhouse Titulo '>
 							<b>Chakana Brewhouse </b>
 						</h1>
 						<h2
-							className=' md:text-3xl lg:text-5xl text-sm text-white'
-							aria-label='		Cervecería Artesanal Independiente titulo 2'>
+							className=' md:text-3xl lg:text-5xl text-sm text-white text-center'
+							aria-label='Cervecería Artesanal Independiente titulo 2'>
 							Cervecería Artesanal Independiente
 						</h2>
 
 						{/* Article */}
-						<article className=' mt-5  text-justify leading-normal lg:text-2xl  lg:mt-44lg:grid justify-center items-center gap-5 '>
+						<article className=' mt-5  md:text-justify leading-normal lg:text-2xl  lg:mt-44lg:grid justify-center items-center gap-5 '>
 							<p className='m-8 lg:ml-0 lg:mr-0 '>
 								Chakana Brewhouse es una micro cervecería artesanal Ecuatoriana,
 								que nace en el año 2017 en los laboratorios de la universidad
@@ -61,7 +61,7 @@ export default function Home() {
 							</picture>
 						</article>
 						{/* article */}
-						<article className=' mt-2  text-justify leading-normal lg:text-2xl  '>
+						<article className=' mt-2 text-left lg:text-justify leading-normal lg:text-2xl  '>
 							<p className='m-7 lg:ml-0 lg:mr-0'>
 								Nuestras cervezas son de alta calidad que se distingue por su
 								sabor distintivo y aroma exquisito. Es una cerveza única,

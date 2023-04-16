@@ -36,8 +36,8 @@ const Breweries = () => {
 	return (
 		<div>
 			{/* ---------------------------- Content Breweries ----------------------------- */}
-			<section className='w-full flex flex-col justify-center text-center flex-wrap'>
-				<h1 className='  lg:text-[42px] text-2xl md:text-5xl mt-20 mb-20 mr-0 ml-0'>
+			<section className='w-full flex flex-col justify-center  flex-wrap'>
+				<h1 className='  lg:text-[42px] text-2xl md:text-5xl mt-20 mb-20 mr-0 ml-0 font-bold'>
 					En nuestra cervecería tenemos cuatro estilos de cerveza
 				</h1>
 				<div className=' w-full lg:flex justify-between items-center gap-2  p-4'>
@@ -49,19 +49,19 @@ const Breweries = () => {
 					<Image
 						src={contenido2}
 						alt='cerveza artesnal de quito sur de quito '
-						className='w-auto lg:w-1/2 rounded-sm'
+						className='pt-5 lg:pt-0 w-auto lg:w-1/2 rounded-sm'
 					/>
 				</div>
-				<article className='w-full text-left leading-relaxed pt-10 pb-10 p-4  lg:text-xl    '>
+				<article className='w-full lg:text-justify leading-relaxed  pb-10 p-4  lg:text-xl  lg:pt-24 pt-10 '>
 					<p>
 						En nuestra micro cervecería
-						<b className='font-bold'>“Chakana Brewhouse”</b> elaboramos nuestras
-						recetas basándonos en la Guía de estilos BJCP 2021.Cuidamos todo
-						nuestro proceso desde el ajuste del perfil de agua, maltas,
+						<b className='font-bold'> “Chakana Brewhouse”</b> elaboramos
+						nuestras recetas basándonos en la Guía de estilos BJCP 2021.Cuidamos
+						todo nuestro proceso desde el ajuste del perfil de agua, maltas,
 						levaduras y lúpulos hasta obtener el producto final una cerveza muy
 						buena en sabor aroma y cuerpo.
 					</p>
-					<p className='pt-6'>
+					<p>
 						Aquí te contamos un poco de historia sobre cada uno de los estilos
 						realizados a nivel mundial y los que elaboramos comercialmente.
 					</p>
@@ -69,7 +69,7 @@ const Breweries = () => {
 			</section>
 			{/* ---------------------------- Videos Breweries ----------------------------- */}
 
-			<div className='flex justify-center flex-wrap md:flex-nowrap gap-3 bg-[#8FA8B8] md:rounded-xl max-w-[77rem]'>
+			<div className='flex justify-center flex-wrap md:flex-nowrap gap-3 bg-[#201f24] md:bg-quinary md:rounded-xl max-w-[77rem] lg:mt-20 mt-10'>
 				<div className='h-[580px] w-full md:w-[220px] lg:w-[420px] m-2 '>
 					<iframe
 						className='h-[580px] w-full'
@@ -97,7 +97,7 @@ const Breweries = () => {
 				<Image
 					src={portadainti}
 					alt='Sello chakana Brewhouse'
-					className='w-full lg:h-full'
+					className='w-full lg:h-full rounded-s-xl'
 				/>
 				<div className='w-full flex justify-center flex-col text-left p-4 md:p-20 '>
 					<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
@@ -134,8 +134,8 @@ const Breweries = () => {
 				</div>
 			</div>
 			{/* ---------------------------- Inti Breweries Content ----------------------------- */}
-			<article className='w-full flex flex-col justify-center text-left flex-wrap mt-10'>
-				<h3 className='text-primary font-bold'>Belgian Blonde Ale</h3>
+			<article className='w-full flex flex-col justify-center leading-relaxed lg:text-justify flex-wrap mt-10 lg:text-xl'>
+				<h3 className='text-white font-bold'>Belgian Blonde Ale</h3>
 				<p className='mt-5'>
 					Ya sea para novatos que incursionan al mundo de la cerveza artesanal o
 					para conocedores del mundo cervecero o simplemente para quienes les
@@ -149,13 +149,15 @@ const Breweries = () => {
 				</p>
 			</article>
 			{/* ---------------------------- Inti History ----------------------------- */}
-			<section className='w-full flex flex-col justify-center text-left items-center flex-wrap mt-10'>
-				<Image
-					src={blodeImg}
-					alt='imagen blonde referencia cerveza chakana chakana'
-				/>
+			<section className='w-full flex flex-col justify-center text-left items-center flex-wrap  mt-10 lg:text-xl'>
+				<div className=' w-full flex justify-center items-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 border-dashed border-2 border-sky-500 '>
+					<Image
+						src={blodeImg}
+						alt='imagen blonde referencia cerveza chakana chakana'
+					/>
+				</div>
 				<article className='mt-7'>
-					<h3 className='text-primary font-bold'>Evolución</h3>
+					<h3 className='text-white font-extrabold'>Evolución</h3>
 					<p className='mt-3'>
 						En comparación con muchos estilos belgas tradicionales como las
 						cervezas sour o las trapenses, la blonde Ale es relativamente
@@ -164,7 +166,9 @@ const Breweries = () => {
 						carácter original para atraer a un público más amplio.
 					</p>
 				</article>
-				<h5>nuestras cerevezas Blonde Ale</h5>
+				<h5 className='mt-20 capitalize italic text-[0.8rem]m md:text-sm'>
+					nuestras cerevezas Blonde Ale
+				</h5>
 				<div className='lg:flex gap-4 justify-center items-center lg:gap-1 p-2 max-w-[77rem]'>
 					<Image
 						src={intibotella}
@@ -187,11 +191,11 @@ const Breweries = () => {
 			<section>
 				<div
 					id='quisato'
-					className='lg:grid grid-cols-2 flex-wrap bg-red-900 rounded-xl mt-20 text-[15px]'>
+					className='lg:grid grid-cols-2 flex-wrap bg-red-900 rounded-xl mt-28 text-[15px]'>
 					<Image
 						src={portadaquisato}
 						alt=''
-						className='lg:h-full'
+						className='lg:h-full rounded-s-xl'
 					/>
 					<div className=' flex justify-center flex-col text-left p-2 md:p-20'>
 						<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
@@ -233,9 +237,9 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10    '>
-					<h3 className='text-primary font-bold'>Irish Red Ale</h3>
-					<p>
+				<article className='text-left leading-relaxed pt-10 pb-20  mt-10 lg:text-xl lg:text-justify '>
+					<h3 className='text-white font-extrabold'>Irish Red Ale</h3>
+					<p className='mt-3'>
 						Es una cerveza de fermentación alta, fácil de beber, tiene un color
 						ámbar-rojizo, transparente y con una espuma blanquecina a color
 						canela de retención media. Su sabor es bastante neutral pero
@@ -246,21 +250,23 @@ const Breweries = () => {
 						existir le otorgaría notas florales o terrosas.
 					</p>
 					<p>
-						. Tiene un cuerpo medio, de final medio-seco con notas amargas por
-						la malta tostada que junto a su graduación alcohólica moderada
-						oscila entre 3,8 y el 5 %, invita a beberla a sorbos. Algunas
-						versiones americanas exhiben mayor grado alcohólico y una
-						“reinvención” del estilo tradicional en Irlanda está apostando por
-						otorgarles mayor amargor.
+						Tiene un cuerpo medio, de final medio-seco con notas amargas por la
+						malta tostada que junto a su graduación alcohólica moderada oscila
+						entre 3,8 y el 5 %, invita a beberla a sorbos. Algunas versiones
+						americanas exhiben mayor grado alcohólico y una “reinvención” del
+						estilo tradicional en Irlanda está apostando por otorgarles mayor
+						amargor.
 					</p>
 				</article>
-				<Image
-					src={irishred}
-					alt='imagen blonde referencia cerveza chakana chakana'
-				/>
-				<article className='text-left leading-relaxed pt-10 pb-10   '>
-					<h5 className='text-primary font-bold'>Su origen</h5>
-					<p>
+				<div className='flex  items-center justify-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 border-dashed border-2 border-sky-500 '>
+					<Image
+						src={irishred}
+						alt='imagen blonde referencia cerveza chakana chakana'
+					/>
+				</div>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl   '>
+					<h5 className='text-white font-extrabold'>Su Origen</h5>
+					<p className='mt-3'>
 						La elaboración de este estilo se la debemos a los Vikingos desde
 						aquellos días que ocuparon Irlanda y llevaron sus estilos de cerveza
 						a esas tierras. En un poema del siglo VIII se habla de esta cerveza
@@ -277,14 +283,16 @@ const Breweries = () => {
 						Irish Red Ale.
 					</p>
 				</article>
-				<Image
-					src={irisale}
-					alt='www.boulevard.com'
-					className='h-[25rem] w-auto'
-				/>
-				<article className='text-left leading-relaxed pt-10 pb-10   '>
-					<h3 className='text-primary font-bold'>Evolución</h3>
-					<p>
+				<div className='flex  items-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 border-dashed border-2 border-sky-500  justify-center l'>
+					<Image
+						src={irisale}
+						alt='www.boulevard.com'
+						className='h-[25rem] w-auto'
+					/>
+				</div>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-xl lg:text-justify  '>
+					<h3 className='text-white font-extrabold '>Evolución</h3>
+					<p className='mt-3'>
 						A día de hoy, podemos encontrar un par de referencias más o menos
 						extendidas a lo largo del planeta. Una de ellas es Murphys Irish Red
 						y la otra Smithwicks de Kilkenn. Es fácil encontrar cualquiera de
@@ -295,7 +303,9 @@ const Breweries = () => {
 						la misma medida.
 					</p>
 				</article>
-				<h3 className='text center'>Nuestras cerveceras Irish Red</h3>
+				<h3 className='text-center mt-20 capitalize italic text-[0.8rem]m md:text-sm'>
+					Nuestras cerveceras Irish Red
+				</h3>
 				<div className='lg:flex gap-4 justify-center items-center lg:gap-1 p-2 max-w-[77rem]'>
 					<Image
 						src={quisbotella}
@@ -364,13 +374,15 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='flex justify-center items-center flex-col text-left flex-wrap leading-relaxed pt-10 pb-10    '>
-					<h3 className='text-primary font-bold'>IPA India Pale Ale</h3>
-					<p>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl'>
+					<h3 className='text-white font-extrabold text-left'>
+						IPA India Pale Ale
+					</h3>
+					<p className='mt-3'>
 						Una IPA es una cerveza de alta graduación alcohólica la cual puede
-						oscilar entre 4 y 9% ABV. Posee un amargor y aroma intensos y cierta
-						complejidad en el paladar. El nombre hace referencia a India Pale
-						Ale, un estilo cervecero que se caracteriza por la alta
+						oscilar entre 4% y 9% ABV. Posee un amargor y aroma intensos y
+						cierta complejidad en el paladar. El nombre hace referencia a India
+						Pale Ale, un estilo cervecero que se caracteriza por la alta
 						concentración de lúpulo en su preparación.
 					</p>
 					<p>
@@ -389,7 +401,7 @@ const Breweries = () => {
 						mercados locales, quienes solían entregar diversos productos a las
 						puertas de los pubs.
 					</p>
-					<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 '>
+					<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 border-dashed border-2 border-sky-500 '>
 						<Image
 							src={palecerveza}
 							alt='IPA India Pale Ale'
@@ -401,7 +413,7 @@ const Breweries = () => {
 			</section>
 
 			{/* ---------------------------- Viracocha History ----------------------------- */}
-			<div className='flex  items-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 '>
+			<div className='flex  items-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 border-dashed border-2 border-sky-500 '>
 				<div className='lg:w-1/2'>
 					<Image
 						src={ipa2}
@@ -413,11 +425,13 @@ const Breweries = () => {
 					<Image
 						src={indianpale}
 						alt='India Pale Ale Chakana '
-						className='w-auto lg:h-[400px]  rounded-sm h-94 bg-clip-content bg-cover   md:mt-0 '
+						className='w-auto lg:h-[400px]  rounded-sm h-94 bg-clip-content bg-cover  md:mt-0 '
 					/>
 				</div>
 			</div>
-			<h5 className='mt-20 text-center'>Nuestras Cervezas I.P.A Pale Ale </h5>
+			<h5 className='text-center mt-20 capitalize italic text-[0.8rem]m md:text-sm'>
+				Nuestras Cervezas I.P.A Pale Ale
+			</h5>
 			<div className='lg:flex justify-center items-center gap-2 p-2 max-w-[77rem] '>
 				<Image
 					src={viracbotella}
@@ -484,9 +498,9 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='text-justify leading-relaxed pt-10 pb-10  lg:text-2xl  '>
-					<h3 className='text-primary font-bold'>English Porter </h3>
-					<p>
+				<article className='text-justify leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
+					<h3 className='text-white font-extrabold'>English Porter </h3>
+					<p className='mt-3'>
 						Una cerveza Ale que se caracteriza por su evidente color oscuro, que
 						va desde el marrón rojizo al negro y por tener un sabor intenso en
 						el cual destaca la malta y el lúpulo. Conocida como estilo porter,
@@ -494,16 +508,16 @@ const Breweries = () => {
 						le ha hecho ser una de las cervezas más populares.
 					</p>
 				</article>
-				<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 '>
+				<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 border-dashed border-2 border-sky-500'>
 					<Image
 						src={englishporter}
 						alt='English Porter chakana'
 						className='lg:h-[35rem] lg:w-auto pt-10 pb-10 lg:p-8 rounded-xl'
 					/>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10    '>
-					<h3 className='text-primary font-bold'>Su Origen</h3>
-					<p>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
+					<h3 className='text-white font-extrabold'>Su Origen</h3>
+					<p className='mt-3'>
 						Originada en Londres hace alrededor de 300 años, el estilo Porter
 						evolucionó a partir de una cerveza Brown Ale muy popular en la época
 						y a partir de entonces, continúo evolucionando debido a desarrollos
@@ -522,14 +536,17 @@ const Breweries = () => {
 						puertas de los pubs
 					</p>
 				</article>
-				<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 '>
+				<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 border-dashed border-2 border-sky-500'>
 					<Image
 						src={porter2}
-						alt='drinkmemag.com chakana'
+						alt='imagen referencia www.drinkmemag.com chakana'
 						className='lg:h-[35rem] lg:w-auto pb-10 pt-10 lg:p-8 rounded-xl'
 					/>
 				</div>
 				<article className='text-selft leading-relaxed pt-10 pb-10  lg:text-2xl  '></article>
+				<h5 className='text-center  capitalize italic text-[0.8rem]m md:text-sm'>
+					Nuestras Cervezas Killa Porter
+				</h5>
 				<div className='lg:flex gap-4 justify-center items-center lg:gap-1 p-2 max-w-[77rem]'>
 					<Image
 						src={killabotella}

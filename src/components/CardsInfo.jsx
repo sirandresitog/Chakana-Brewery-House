@@ -22,7 +22,7 @@ const CardsInfo = () => {
 						<a
 							href={card.ref}
 							aria-label='Mas Información'
-							className='bg-cyan-700 text-slate-300 py-1.5 px-4 text-sm rounded-full  hover:bg-blue-500'>
+							className='bg-cyan-700 text-slate-300 py-1.5 px-4 text-sm rounded-full  hover:bg-blue-500 '>
 							Mas Informacion
 						</a>
 					</div>

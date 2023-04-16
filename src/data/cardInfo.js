@@ -10,7 +10,7 @@ const cardsInfo = [
 		img: killa,
 		type: 'Cerveza Oscura',
 		alt: 'Logotipo Cerveza Oscura Killa Porter Chakana brew House',
-		color: 'bg-[#8FA8B8]',
+		color: 'bg-gray-900',
 		ref: '#killa',
 	},
 	{

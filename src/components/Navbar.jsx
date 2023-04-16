@@ -10,7 +10,7 @@ const LayoutWrapper = () => {
 					<Link
 						key={link.title}
 						href={link.href}
-						className='p-1  text-white font-bold  sm:p-4 text-xl hover:bottom-1 hover:border-b-4 hover:text-purple-950 border-slate-950'>
+						className='p-1  text-secondary font-bold  sm:p-4 text-xl hover:bottom-1 hover:border-b-4 hover:text-quaternary border-quinary'>
 						{link.title}
 					</Link>
 				))}

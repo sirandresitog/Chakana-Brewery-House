@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 export default function App({ Component, pageProps }) {
 	return (
 		<>
-			<header className='bg-slate-500 h-20  flex justify-center items-center '>
+			<header className='bg-navbar h-20  flex justify-center items-center '>
 				<Navbar />
 			</header>
 			<MobileNav />
