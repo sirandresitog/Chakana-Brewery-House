@@ -13,16 +13,16 @@ import viracocha3 from '../img/viracocha3.webp';
 
 const postercards = [
 	{ id: 1, img: inti1 },
-	{ id: 1, img: inti2 },
-	{ id: 1, img: inti3 },
-	{ id: 1, img: killa1 },
-	{ id: 1, img: killa2 },
-	{ id: 1, img: killa3 },
-	{ id: 1, img: quisato1 },
-	{ id: 1, img: quisato2 },
-	{ id: 1, img: quisato3 },
-	{ id: 1, img: viracocha1 },
-	{ id: 1, img: viracocha2 },
-	{ id: 1, img: viracocha3 },
+	{ id: 2, img: inti2 },
+	{ id: 3, img: inti3 },
+	{ id: 4, img: killa1 },
+	{ id: 5, img: killa2 },
+	{ id: 6, img: killa3 },
+	{ id: 7, img: quisato1 },
+	{ id: 8, img: quisato2 },
+	{ id: 9, img: quisato3 },
+	{ id: 10, img: viracocha1 },
+	{ id: 11, img: viracocha2 },
+	{ id: 12, img: viracocha3 },
 ];
 export default postercards;

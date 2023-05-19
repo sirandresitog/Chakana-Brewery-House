@@ -23,7 +23,7 @@ const cardsInfo = [
 		ref: '#inti',
 	},
 	{
-		id: 4,
+		id: 3,
 		name: 'Quisato Red Ale',
 		img: quisato,
 		type: 'Cerveza Negra',
@@ -32,7 +32,7 @@ const cardsInfo = [
 		ref: '#quisato',
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Viracocha I:P:A',
 		img: viracocha,
 		type: 'Cerveza Dorada',

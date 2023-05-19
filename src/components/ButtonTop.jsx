@@ -19,7 +19,7 @@ const ButtonTop = () => {
 				smooth
 				style={btntop}
 				component={<IoIosArrowUp className=' hover:text-oscuro text-9xl' />}
-				className='hover:bg-secondary hover:text-black'
+				className='hover:bg-white hover:text-black'
 			/>
 		</div>
 	);
