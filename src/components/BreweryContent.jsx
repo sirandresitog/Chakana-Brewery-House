@@ -44,7 +44,7 @@ const Breweries = () => {
 					<Image
 						src={contenido1}
 						alt='Cerveza artesanal ecuatoriana quiteña chulla'
-						className='w-auto lg:w-1/2 rounded-sm'
+						className='pt-5 lg:pt-0 w-full lg:w-1/2 rounded-sm'
 					/>
 					<Image
 						src={contenido2}
@@ -300,7 +300,7 @@ const Breweries = () => {
 					<Image
 						src={irisale}
 						alt='www.boulevard.com'
-						className='h-[25rem] w-auto'
+						className='h-auto-auto'
 					/>
 				</div>
 				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-xl lg:text-justify  '>
@@ -424,25 +424,24 @@ const Breweries = () => {
 							alt='IPA India Pale Ale'
 							className='lg:h-[35rem] lg:w-auto pb-10 pt-10 lg:p-8 rounded-xl'
 						/>
-						<p></p>
 					</div>
 				</article>
 			</section>
 
 			{/* ---------------------------- Viracocha History ----------------------------- */}
 			<div className='flex  items-center gap-4 lg:gap-2 flex-wrap lg:flex-nowrap bg-[#201f24]  pb-10 pt-10 lg:p-14 border-dashed border-2 border-sky-500 '>
-				<div className='lg:w-1/2'>
+				<div className='lg:w-1/2 w-full flex justify-center items-center'>
 					<Image
 						src={ipa2}
-						alt='"Ruta desde Inglaterra a la India en el siglo XIX..'
-						className='w-auto lg:h-[400px]  rounded-sm h-94 bg-clip-content bg-cover '
+						alt='Ruta desde Inglaterra a la India en el siglo XIX..'
+						className='w-full lg:h-[400px]  rounded-sm  bg-clip-content   md:mt-0'
 					/>
 				</div>
 				<div className='lg:w-1/2 '>
 					<Image
 						src={indianpale}
 						alt='India Pale Ale Chakana '
-						className='w-auto lg:h-[400px]  rounded-sm h-94 bg-clip-content bg-cover  md:mt-0 '
+						className='w-auto lg:h-[400px]  rounded-sm h-94 bg-clip-content md:mt-0 '
 					/>
 				</div>
 			</div>

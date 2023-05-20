@@ -31,7 +31,7 @@ const Ubicacion = () => {
 						sequence={[
 							`Próximamente abriremos un local donde\nencontrarás mucho más que cerveza:  un ambiente acogedor música en vivo y deliciosos maridajes que complementarán tu experiencia.  \n ¡No puedes perderte esta nueva etapa de nuestra cervecería! 
               \n Prepárate para sumergirte en un mundo de sabores y emociones\n    Próximamente, te esperamos con los brazos abiertos en nuestro nuevo bar.`,
-							2500,
+							1800,
 							'',
 						]}
 						repeat={Infinity}

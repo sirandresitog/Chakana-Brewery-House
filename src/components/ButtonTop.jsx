@@ -12,6 +12,7 @@ const ButtonTop = () => {
 		color: 'white',
 		padding: '10px',
 		fontSize: '22px',
+		cursor: 'none',
 	};
 	return (
 		<div>
