@@ -7,6 +7,14 @@ const pageBrewey = () => {
 		<>
 			<Head>
 				<title>Cervezas</title>
+				<meta
+					name='description'
+					content='Cervezas artesanales CHAKANA BREWERY HOUSE'
+				/>
+				<link
+					rel='icon'
+					href='/favicon.ico'
+				/>
 			</Head>
 			<div className=' text-gray-300 max-w-[70rem] lg:m-auto mr-3 ml-3 '>
 				<CardsBrewery />

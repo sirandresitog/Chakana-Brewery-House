@@ -13,6 +13,14 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Chakana Brew House</title>
+				<meta
+					name='description'
+					content='Cervecería Artesanal Independiente CHAKANA BREWERY HOUSE'
+				/>
+				<link
+					rel='icon'
+					href='/favicon.ico'
+				/>
 			</Head>
 			<main className='flex min-h-screen flex-col items-center justify-between   '>
 				<section className=' max-w-[70rem]  lg:m-auto text-slate-50'>

@@ -1,4 +1,3 @@
-'use client';
 import { useState } from 'react';
 import Link from 'next/link';
 import headerNavLinks from '../data/headerNavLinks';
@@ -38,7 +37,7 @@ const MobileNav = () => {
 				</svg>
 			</button>
 			<div
-				className={`fixed top-0 left-0 z-10 h-full w-full transform bg-gray-200 opacity-95 duration-300 ease-in-out dark:bg-gray-800 ${
+				className={`fixed top-0 left-0 z-10 h-full w-full transform bg-slate-900 opacity-95 duration-300 ease-in-out dark:bg-dorado ${
 					navShow ? 'translate-x-0' : 'translate-x-full'
 				}`}>
 				<div className='flex justify-end'>

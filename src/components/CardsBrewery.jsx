@@ -36,7 +36,7 @@ const cards = () => {
 					priority={true}
 				/>
 			</div>
-			<h1 className=' text-3xl lg:bg-secondary  p-5 text-gray-800 text-center w-full mt-0 bg-small-chakana capitalize lg:rounded-3xl lg:mb-20 font-extrabold '>
+			<h1 className=' text-3xl lg:bg-secondary  p-5  lg:text-gray-800 text-blue-50 text-center w-full mt-0 bg-small-chakana capitalize lg:rounded-3xl lg:mb-20 font-extrabold '>
 				Nuestros Productos
 			</h1>
 

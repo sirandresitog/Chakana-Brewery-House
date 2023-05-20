@@ -8,17 +8,17 @@ import Image from 'next/image';
 const AboutUs = () => {
 	return (
 		<div>
-			<div className='flex justify-center items-center flex-wrap m-5 text-justify text-base p-4 lg:text-xl mt-0 font-semibold'>
+			<div className='flex justify-center items-center flex-wrap m-5 text-justify text-base p-1 lg:text-xl mt-0 font-semibold'>
 				<Image
 					src={imgtop}
 					alt='kanaka Mirada Quisato'
 					className=' rounded-t-xl'
 				/>
-				<h3 className='font-extrabold text-2xl  p-5 text-white text-center bg-primary w-screen m-0 bg-small-chakana uppercase  mt-0 '>
+				<h3 className='font-extrabold md:text-2xl  p-3 text-white text-center bg-primary w-screen m-0 bg-small-chakana uppercase  mt-0 '>
 					Acerca de Nosotros
 				</h3>
-				<div className='lg:grid grid-cols-2 justify-center items-center gap-5 bg-secondary mt-8 rounded-xl text-gray-900 '>
-					<p className='m-8'>
+				<div className='lg:grid grid-cols-2  items-center gap-5 bg-secondary mt-8 rounded-xl text-gray-900 '>
+					<p className='m-4'>
 						Chakana Brewhouse Cervecería Artesanal independiente inició en Quito
 						Ecuador como un proyecto personal el cuál nació en los laboratorios
 						de ciencias de la universidad en donde gracias al gusto por la
@@ -51,7 +51,7 @@ const AboutUs = () => {
 							</span>
 						</figcaption>
 					</figure>
-					<p className='m-8 text-gray-900'>
+					<p className='m-6  text-gray-900 '>
 						Los primeros ensayos fueron un éxito logrando hacer nuestra primera
 						cerveza una Blonde ale americana con un color dorado intenso buen
 						aroma y muy refrescante. En cada lote añadíamos algo diferente,
@@ -63,7 +63,7 @@ const AboutUs = () => {
 					</p>
 				</div>
 				<div className=' flex justify-center flex-col bg-white text-black mt-7 rounded-lg '>
-					<p className=' p-7 bg-tertiary text-gray-900 '>
+					<p className=' p-7 bg-tertiary text-gray-900 rounded-lg '>
 						Obteniendo así nuestro primer reconocimiento en un concurso de
 						cerveceros caseros iniciando con mucho ánimo y paso firme en este
 						bello mundo cervecero. Quisimos representar nuestras cervezas con la
@@ -82,7 +82,7 @@ const AboutUs = () => {
 						alt='Diseños 2023 Chakana'
 						className=''
 					/>
-					<p className='p-7 bg-tertiary text-gray-900'>
+					<p className='p-7 bg-tertiary text-gray-900 rounded-lg'>
 						Hoy en día contamos con una imagen renovada, mejorando día a día
 						nuestras recetas realizando entregas de nuestros productos a nivel
 						nacional ganando poco a poco más espacios en este interesante y
@@ -91,30 +91,30 @@ const AboutUs = () => {
 				</div>
 				<div>
 					{/* card-gerent */}
-					<div className='lg:grid grid-cols-2 justify-center items-center  bg-quinary mt-8 rounded-xl pb-7 xl:p-0 '>
+					<div className='lg:grid grid-cols-2 justify-center items-center  bg-quinary mt-8 rounded-xl pb-7 xl:p-0  '>
 						<figure>
 							<Image
 								src={henrylozada}
 								alt='Ing. Henrry Lozada fundador de Chakana BrewHouse'
 								className='rounded-tl-xl rounded-tr-xl xl:rounded-tr-none'
 							/>
-							<figcaption className='text-center italic bg-slate-700 rounded-bl-xl xl:rounded-bl-none text-xs '>
+							<figcaption className='text-center italic bg-slate-700 xl:rounded-bl-xl  lg:rounded-bl-xl text-xs '>
 								Henrry Ing. Henry Lozada Maestro Cervecero
 								<br /> Fundador Cerveceria Chakana BrewHouse
 							</figcaption>
 						</figure>
-						<div className=' flex justify-center flex-col items-center mt-5'>
+						<div className=' flex  flex-col items-center mt-5'>
 							<h5 className='font-extrabold'> MISIÓN </h5>
-							<p className='m-9 text-base'>
+							<p className='m-4 text-base'>
 								En Chakana Brewhouse buscamos brindar al mercado ecuatoriano una
 								cerveza artesanal de calidad con distinción en su sabor, color y
 								aroma, ofreciendo experiencias exclusivas y culturizando a
 								nuestros consumidores sobre cervezas y saberes ancestrales.
 							</p>
 
-							<div className='flex justify-center flex-col items-center bg-amber-50 text-black p-4'>
+							<div className='flex  flex-col items-center bg-amber-50 text-black p-4'>
 								<h5 className='font-extrabold'>VISIÓN</h5>
-								<p className='m-9 text-base text-start'>
+								<p className=' text-base text-start'>
 									Ser una micro cervecería reconocida y competitiva a nivel
 									nacional e internacional ofreciendo a nuestros consumidores
 									cervezas de calidad

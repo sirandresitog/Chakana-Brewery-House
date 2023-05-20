@@ -1,6 +1,5 @@
 import headerNavLinks from '../data/headerNavLinks';
 import Link from 'next/link';
-//console.log(headerNavLinks);
 
 const LayoutWrapper = () => {
 	return (

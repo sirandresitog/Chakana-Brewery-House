@@ -37,7 +37,7 @@ const Breweries = () => {
 		<div>
 			{/* ---------------------------- Content Breweries ----------------------------- */}
 			<section className='w-full flex flex-col justify-center  flex-wrap'>
-				<h1 className='  lg:text-[42px] text-2xl md:text-5xl mt-20 mb-20 mr-0 ml-0 font-bold'>
+				<h1 className=' text-center lg:text-[42px] text-2xl md:text-5xl mt-20 mb-20 mr-0 ml-0 font-bold'>
 					En nuestra cervecería tenemos cuatro estilos de cerveza
 				</h1>
 				<div className=' w-full lg:flex justify-between items-center gap-2  p-4'>
@@ -93,42 +93,46 @@ const Breweries = () => {
 			{/* ---------------------------- Inti Brewery----------------------------- */}
 			<div
 				id='inti'
-				className='w-full lg:grid grid-cols-2 flex-wrap bg-rubio rounded-xl mt-20 text-[15px] '>
-				<Image
-					src={portadainti}
-					alt='Sello chakana Brewhouse'
-					className='w-full lg:h-full rounded-s-xl'
-				/>
-				<div className='w-full flex justify-center flex-col text-left p-4 md:p-20 '>
-					<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
-						<h2 className='letra border bg-rubio border-black md:text-5xl font-extrabold  hidden md:flex'>
-							Cerveza Rubia
-						</h2>
-						<h2 className='letra wave rojo text-rubio  md:text-5xl font-extrabold '>
-							Cerveza Rubia
-						</h2>
-					</div>
-					<p className='md:mt-20 mt-4 '>
-						<b>Caracteristicas</b> :Una blonde ale de cuerpo ligero. 6,5% de
-						alcohol, baja en amargor y refrescante, su sabor es maltoso, un poco
-						dulce al gusto y sutil aroma a levadura.
-					</p>
-					<h3 className='sm:text-[0.3rem] md:text-base mt-5'>
-						<b>Maridaje:</b>
-					</h3>
-					<p>Ensaladas,Quesos, Mariscos,Embutidos</p>
-					<div className='flex  items-center text-4xl justify-center mt-10 '>
-						<div className='m-1'>
-							<TbSalad />
+				className='w-full lg:grid grid-cols-2 flex-wrap  bg-[#333] rounded-xl mt-20 text-[15px] '>
+				<div className='w-full h-full flex justify-center items-center '>
+					<Image
+						src={portadainti}
+						alt='Sello chakana Brewhouse'
+						className='w-auto h-auto '
+					/>
+				</div>
+				<div className='w-full h-full flex justify-center items-center '>
+					<div className=' h-[82%] flex justify-center flex-col text-left p-4 md:p-20 bg-rubio '>
+						<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
+							<h2 className='letra border bg-rubio border-black md:text-5xl font-extrabold  hidden md:flex'>
+								Cerveza Rubia
+							</h2>
+							<h2 className='letra wave rojo text-rubio  md:text-5xl font-extrabold '>
+								Cerveza Rubia
+							</h2>
 						</div>
-						<div className='m-1'>
-							<BiCheese />
-						</div>
-						<div className='m-1'>
-							<IoFishOutline />
-						</div>
-						<div className='m-1'>
-							<GiSlicedSausage />
+						<p className='md:mt-20 mt-4 '>
+							<b>Caracteristicas</b> :Una blonde ale de cuerpo ligero. 6,5% de
+							alcohol, baja en amargor y refrescante, su sabor es maltoso, un
+							poco dulce al gusto y sutil aroma a levadura.
+						</p>
+						<h3 className='sm:text-[0.3rem] md:text-base mt-5'>
+							<b>Maridaje:</b>
+						</h3>
+						<p>Ensaladas,Quesos, Mariscos,Embutidos</p>
+						<div className='flex  items-center text-4xl justify-center mt-10 '>
+							<div className='m-1'>
+								<TbSalad />
+							</div>
+							<div className='m-1'>
+								<BiCheese />
+							</div>
+							<div className='m-1'>
+								<IoFishOutline />
+							</div>
+							<div className='m-1'>
+								<GiSlicedSausage />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -191,48 +195,57 @@ const Breweries = () => {
 			<section>
 				<div
 					id='quisato'
-					className='lg:grid grid-cols-2 flex-wrap bg-red-900 rounded-xl mt-28 text-[15px]'>
-					<Image
-						src={portadaquisato}
-						alt=''
-						className='lg:h-full rounded-s-xl'
-					/>
-					<div className=' flex justify-center flex-col text-left p-2 md:p-20'>
-						<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
-							<h3 className='letra border bg-red-900 border-black md:text-5xl font-extrabold hidden md:flex '>
-								Cerveza Roja
-							</h3>
-							<h3 className='letra wave rojo text-red-900  md:text-5xl font-extrabold '>
-								Cerveza Roja
-							</h3>
-						</div>
-						<p className='md:mt-20 mt-4 '>
-							<b>Caracteristicas</b>: Estilo Irish red ale de 5% de alcohol
-							cerveza maltosa acaramelado por las maltas sutil aroma a caramelo
-							toffee con suaves notas a lúpulo baja en amargor y fácil de
-							beber..
-						</p>
-						<br />
-						<h4>
-							<b>Maridaje:</b>
-							<p>Postres,Quesos, Mariscos,Pollo,Embutidos</p>
-						</h4>
-						<br />
-						<div className='flex  items-center text-4xl justify-center'>
-							<div className='m-1'>
-								<GiCakeSlice />
+					className='lg:grid grid-cols-2 flex-wrap bg-[#333] rounded-xl mt-28 text-[15px]'>
+					<div
+						className='	w-full
+						h-full
+						flex
+						justify-center
+						items-center'>
+						<Image
+							src={portadaquisato}
+							alt='QUISATO PORTADA CERVEZA'
+							className='h-auto w-auto rounded-s-xl'
+						/>
+					</div>
+					<div className='w-full h-full flex justify-center items-center '>
+						<div className=' flex  h-[81%] justify-center flex-col text-left p-2 md:p-20 bg-red-900'>
+							<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
+								<h3 className='letra border bg-red-900 border-black md:text-5xl font-extrabold hidden md:flex '>
+									Cerveza Roja
+								</h3>
+								<h3 className='letra wave rojo text-red-900  md:text-5xl font-extrabold '>
+									Cerveza Roja
+								</h3>
 							</div>
-							<div className='m-1'>
-								<BiCheese />
-							</div>
-							<div className='m-1'>
-								<IoFishOutline />
-							</div>
-							<div className='m-1'>
-								<TbMeatOff />
-							</div>
-							<div className='m-1'>
-								<GiSlicedSausage />
+							<p className='md:mt-20 mt-4 '>
+								<b>Caracteristicas</b>: Estilo Irish red ale de 5% de alcohol
+								cerveza maltosa acaramelado por las maltas sutil aroma a
+								caramelo toffee con suaves notas a lúpulo baja en amargor y
+								fácil de beber..
+							</p>
+							<br />
+							<h4>
+								<b>Maridaje:</b>
+								<p>Postres,Quesos, Mariscos,Pollo,Embutidos</p>
+							</h4>
+							<br />
+							<div className='flex  items-center text-4xl justify-center'>
+								<div className='m-1'>
+									<GiCakeSlice />
+								</div>
+								<div className='m-1'>
+									<BiCheese />
+								</div>
+								<div className='m-1'>
+									<IoFishOutline />
+								</div>
+								<div className='m-1'>
+									<TbMeatOff />
+								</div>
+								<div className='m-1'>
+									<GiSlicedSausage />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -328,48 +341,52 @@ const Breweries = () => {
 			<section>
 				<div
 					id='viracocha'
-					className='lg:grid grid-cols-2 flex-wrap rounded-xl bg-dorado mt-20 text-[15px] '>
-					<Image
-						src={portadaviracocha}
-						alt=''
-						className='lg:h-full lg:w-full'
-					/>
-					<div className=' text-left p-2 md:p-20'>
-						<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
-							<h3 className='letra border bg-dorado border-black md:text-5xl font-extrabold hidden md:flex '>
-								Cerveza Dorada
-							</h3>
-							<h3 className='letra wave rojo text-dorado  md:text-5xl font-extrabold '>
-								Cerveza Dorada
-							</h3>
-						</div>
-						<p className='md:mt-20 mt-4 '>
-							<b>Caracteristicas</b>: Cerveza Porter de 6,5 % de alcohol.
-							Cerveza con matices achocolatados por sus maltas chocolate, cuerpo
-							medio, amargor bajo y predomina el aroma a café tostado gracias a
-							sus maltas tostadas.
-						</p>
-						<br />
-						<h4>
-							<b>Maridaje:</b>
-						</h4>
-						<p>Carnes asadas, Postres, Quesos, Mariscos, Embutidos</p>
-						<br />
-						<div className='flex  items-center text-4xl justify-center'>
-							<div className='m-1'>
-								<GiMeat />
+					className='lg:grid grid-cols-2 flex-wrap rounded-xl  mt-20 text-[15px] bg-[#333] '>
+					<div className='flex justify-center items-center w-full h-full'>
+						<Image
+							src={portadaviracocha}
+							alt='Portada cerveza viracocha'
+							className='lg:h-auto w-auto'
+						/>
+					</div>
+					<div className='flex w-full h-full justify-center items-center'>
+						<div className=' h-[83%] text-left p-2 md:p-20 bg-dorado'>
+							<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6 '>
+								<h3 className='letra border bg-dorado border-black md:text-5xl font-extrabold hidden md:flex '>
+									Cerveza Dorada
+								</h3>
+								<h3 className='letra wave rojo text-dorado  md:text-5xl font-extrabold '>
+									Cerveza Dorada
+								</h3>
 							</div>
-							<div className='m-1'>
-								<GiCakeSlice />
-							</div>
-							<div className='m-1'>
-								<BiCheese />
-							</div>
-							<div className='m-1'>
-								<IoFishOutline />
-							</div>
-							<div className='m-1'>
-								<GiSlicedSausage />
+							<p className='md:mt-16 mt-4 '>
+								<b>Caracteristicas</b>: Cerveza Porter de 6,5 % de alcohol.
+								Cerveza con matices achocolatados por sus maltas chocolate,
+								cuerpo medio, amargor bajo y predomina el aroma a café tostado
+								gracias a sus maltas tostadas.
+							</p>
+							<br />
+							<h4>
+								<b>Maridaje:</b>
+							</h4>
+							<p>Carnes asadas, Postres, Quesos, Mariscos, Embutidos</p>
+							<br />
+							<div className='flex  items-center text-4xl justify-center'>
+								<div className='m-1'>
+									<GiMeat />
+								</div>
+								<div className='m-1'>
+									<GiCakeSlice />
+								</div>
+								<div className='m-1'>
+									<BiCheese />
+								</div>
+								<div className='m-1'>
+									<IoFishOutline />
+								</div>
+								<div className='m-1'>
+									<GiSlicedSausage />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -452,53 +469,57 @@ const Breweries = () => {
 			<section>
 				<div
 					id='killa'
-					className='lg:grid grid-cols-2 flex-wrap rounded-xl bg-gray-900 text-[15px] mt-20'>
-					<Image
-						src={portadaKilla}
-						alt=''
-						className='lg:h-full'
-					/>
-					<div className=' flex justify-center flex-col text-justify p-2 md:p-20'>
-						<div className='flex justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6'>
-							<h3 className='letra border bg-gray-900 border-black md:text-5xl font-extrabold hidden md:flex'>
-								Cerveza Oscura
-							</h3>
-							<h3 className='letra wave rojo text-gray-900  md:text-5xl font-extrabold '>
-								Cerveza Oscura
-							</h3>
-						</div>
-						<p className='md:mt-20 mt-4 '>
-							<b>Caracteristicas</b>: Cerveza Porter de 6,5 % de alcohol.
-							Cerveza con matices achocolatados por sus maltas chocolate, cuerpo
-							medio, amargor bajo y predomina el aroma a café tostado gracias a
-							sus maltas tostadas.
-						</p>
-						<br />
-						<h4>
-							<b>Maridaje:</b> Carnes asadas, Postres, Quesos, Mariscos,
-							Embutidos
-						</h4>
-						<br />
-						<div className='flex  items-center text-4xl justify-center'>
-							<div className='m-1'>
-								<GiMeat />
+					className='lg:grid grid-cols-2 flex-wrap rounded-xl bg-[#444] text-[15px] mt-20'>
+					<div className='flex justify-center items-center w-full h-full'>
+						<Image
+							src={portadaKilla}
+							alt='Portada cervecera Killa artesanal'
+							className='w-auto h-auto '
+						/>
+					</div>
+					<div className='w-full h-full flex justify-center items-center'>
+						<div className=' flex h-[81%] justify-center flex-col text-justify p-2 md:p-20 bg-gray-900'>
+							<div className='flex  justify-center -translate-y-3 md:-translate-y-4 lg:-translate-y-6 '>
+								<h3 className='letra border bg-gray-900 border-black md:text-5xl font-extrabold hidden md:flex'>
+									Cerveza Oscura
+								</h3>
+								<h3 className='letra wave rojo text-gray-900  md:text-5xl font-extrabold '>
+									Cerveza Oscura
+								</h3>
 							</div>
-							<div className='m-1'>
-								<GiCakeSlice />
-							</div>
-							<div className='m-1'>
-								<BiCheese />
-							</div>
-							<div className='m-1'>
-								<IoFishOutline />
-							</div>
-							<div className='m-1'>
-								<GiSlicedSausage />
+							<p className='md:mt-20 mt-4 '>
+								<b>Caracteristicas</b>: Cerveza Porter de 6,5 % de alcohol.
+								Cerveza con matices achocolatados por sus maltas chocolate,
+								cuerpo medio, amargor bajo y predomina el aroma a café tostado
+								gracias a sus maltas tostadas.
+							</p>
+							<br />
+							<h4>
+								<b>Maridaje:</b> Carnes asadas, Postres, Quesos, Mariscos,
+								Embutidos
+							</h4>
+							<br />
+							<div className='flex  items-center text-4xl justify-center'>
+								<div className='m-1'>
+									<GiMeat />
+								</div>
+								<div className='m-1'>
+									<GiCakeSlice />
+								</div>
+								<div className='m-1'>
+									<BiCheese />
+								</div>
+								<div className='m-1'>
+									<IoFishOutline />
+								</div>
+								<div className='m-1'>
+									<GiSlicedSausage />
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<article className='text-justify leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
 					<h3 className='text-white font-extrabold'>English Porter </h3>
 					<p className='mt-3'>
 						Una cerveza Ale que se caracteriza por su evidente color oscuro, que
@@ -537,11 +558,13 @@ const Breweries = () => {
 					</p>
 				</article>
 				<div className='flex justify-center items-center bg-[#201f24] w-full mt-10 border-dashed border-2 border-sky-500'>
-					<Image
-						src={porter2}
-						alt='imagen referencia www.drinkmemag.com chakana'
-						className='lg:h-[35rem] lg:w-auto pb-10 pt-10 lg:p-8 rounded-xl'
-					/>
+					<div className='flex justify-center items-center w-full h-full'>
+						<Image
+							src={porter2}
+							alt='imagen referencia www.drinkmemag.com chakana'
+							className='lg:h-[35rem] lg:w-auto pb-10 pt-10 lg:p-8 rounded-xl'
+						/>
+					</div>
 				</div>
 				<article className='text-selft leading-relaxed pt-10 pb-10  lg:text-2xl  '></article>
 				<h5 className='text-center  capitalize italic text-[0.8rem]m md:text-sm'>

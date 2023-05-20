@@ -5,4 +5,5 @@ const headerNavLinks = [
 	{ href: '/Ubicacion', title: 'Ubicación' },
 	{ href: '/Nosotros', title: 'Nosotros' },
 ];
+
 export default headerNavLinks;
