@@ -70,7 +70,7 @@ const GaleryComp = () => {
 			<ImageGallery
 				items={images}
 				infinite={true}
-				showFullscreenButton={false}
+				showFullscreenButton={true}
 				showPlayButton={false}
 				showThumbnails={false}
 				showIndex={true}
