@@ -32,12 +32,12 @@ export default function Home() {
 					/>
 					<section>
 						<h1
-							className=' font-extrabold md:text-5xl lg:text-8xl text-center '
+							className=' font-extrabold  text-5xl md:text-5xl lg:text-8xl text-center '
 							aria-label='Chakana Brewhouse Titulo '>
 							<b>Chakana Brewhouse </b>
 						</h1>
 						<h2
-							className=' md:text-3xl lg:text-5xl text-sm text-white text-center'
+							className=' md:text-3xl mt-2 lg:text-5xl text-sm text-white text-center'
 							aria-label='Cervecería Artesanal Independiente titulo 2'>
 							Cervecería Artesanal Independiente
 						</h2>
