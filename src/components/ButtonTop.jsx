@@ -12,7 +12,7 @@ const ButtonTop = () => {
 		color: 'white',
 		padding: '10px',
 		fontSize: '22px',
-		cursor: 'none',
+		cursor: 'pointer',
 	};
 	return (
 		<div>
@@ -20,7 +20,7 @@ const ButtonTop = () => {
 				smooth
 				style={btntop}
 				component={<IoIosArrowUp className=' hover:text-oscuro text-9xl' />}
-				className='hover:bg-white hover:text-black'
+				className='hover:bg-white hover:text-black cursor-pointer'
 			/>
 		</div>
 	);
