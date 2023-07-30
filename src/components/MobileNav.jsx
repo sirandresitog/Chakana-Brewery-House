@@ -37,7 +37,7 @@ const MobileNav = () => {
 				</svg>
 			</button>
 			<div
-				className={`fixed top-0 left-0 z-10 h-full w-full transform opacity-95 duration-300 ease-in-out bg-[#333] ${
+				className={`fixed top-0 left-0 z-10 h-full w-full transform opacity-95 duration-300 ease-in-out bg-yellow-500 ${
 					navShow ? 'translate-x-0' : 'translate-x-full'
 				}`}>
 				<div className='flex justify-end'>
@@ -50,7 +50,7 @@ const MobileNav = () => {
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 20 20'
 							fill='currentColor'
-							className='text-white'>
+							className='text-black '>
 							<path
 								fillRule='evenodd'
 								d='M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z'
@@ -66,9 +66,11 @@ const MobileNav = () => {
 							className='px-12 py-4'>
 							<Link
 								href={link.href}
-								className='text-2xl font-bold tracking-widest text-white'
+								className='text-2xl font-bold tracking-widest text-black '
 								onClick={onToggleNav}>
-								{link.title}
+								<div className='w-full  bg-white p-1 pl-4 pr-2 rounded-md hover:bg-blue-400 '>
+									{link.title}
+								</div>
 							</Link>
 						</div>
 					))}

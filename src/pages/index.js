@@ -44,7 +44,7 @@ export default function Home() {
 
 						{/* Article */}
 						<article className=' mt-5  md:text-justify leading-normal lg:text-2xl  lg:mt-44lg:grid justify-center items-center gap-5 '>
-							<p className='m-8 lg:ml-0 lg:mr-0 '>
+							<p className='m-8 lg:ml-0 lg:mr-0 text-sm  lg:text-xl'>
 								Chakana Brewhouse es una micro cervecería artesanal Ecuatoriana,
 								que nace en el año 2017 en los laboratorios de la universidad
 								con la consigna de generar estilos de cervezas con alta calidad
@@ -70,7 +70,7 @@ export default function Home() {
 						</article>
 						{/* article */}
 						<article className=' mt-2 text-left lg:text-justify leading-normal lg:text-2xl  '>
-							<p className='m-7 lg:ml-0 lg:mr-0'>
+							<p className='m-7 lg:ml-0 lg:mr-0 text-sm  lg:text-xl'>
 								Nuestras cervezas son de alta calidad que se distingue por su
 								sabor distintivo y aroma exquisito. Es una cerveza única,
 								elaborada con los mejores ingredientes naturales cuidadosamente
@@ -85,7 +85,7 @@ export default function Home() {
 								una experiencia única a cada uno de sus consumidores.
 								<br />
 							</p>
-							<h3 className=' md:text-4xl text-yellow-300 mb-10 text-center font-bold'>
+							<h3 className='text-sm md:text-4xl text-yellow-300 mb-10 text-center font-bold '>
 								¡Descubre el sabor auténtico de Chakana!
 							</h3>
 							<picture className='pt-20'>
@@ -102,7 +102,7 @@ export default function Home() {
 									/>
 								</div>
 							</picture>
-							<h4 className='text-center text-4xl p-5 lg:text-5xl font-semibold mt-20'>
+							<h4 className='text-center text-md p-5 lg:text-5xl font-semibold mt-20'>
 								Usamos materiales Importados
 							</h4>
 							<Image
@@ -111,7 +111,7 @@ export default function Home() {
 								className=' h-auto pt-5 pr-3 pl-3 w-full lg:w-screen lg:mr-0 lg:ml-0 lg:pr-0 lg:pl-0 '
 							/>
 							<div className='flex flex-col justify-center items-center '>
-								<h4 className='text-center text-3xl mt-20 lg:mt-40 lg:text-5xl font-semibold '>
+								<h4 className='text-center text-md mt-20 lg:mt-40 lg:text-5xl font-semibold '>
 									Producto Ecuatoriano
 								</h4>
 								<Image

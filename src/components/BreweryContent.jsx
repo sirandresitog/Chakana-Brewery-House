@@ -52,7 +52,7 @@ const Breweries = () => {
 						className='pt-5 lg:pt-0 w-auto lg:w-1/2 rounded-sm'
 					/>
 				</div>
-				<article className='w-full lg:text-justify leading-relaxed  pb-10 p-4  lg:text-xl  lg:pt-24 pt-10 '>
+				<article className='w-full lg:text-justify leading-relaxed  pb-10 p-4 text-sm lg:text-xl  lg:pt-24 pt-10 '>
 					<p>
 						En nuestra micro cervecería
 						<b className='font-bold'> “Chakana Brewhouse”</b> elaboramos
@@ -138,7 +138,7 @@ const Breweries = () => {
 				</div>
 			</div>
 			{/* ---------------------------- Inti Breweries Content ----------------------------- */}
-			<article className='w-full flex flex-col justify-center leading-relaxed lg:text-justify flex-wrap mt-10 lg:text-xl'>
+			<article className='w-full flex flex-col justify-center leading-relaxed lg:text-justify flex-wrap text-sm mt-10 lg:text-xl'>
 				<h3 className='text-white font-bold'>Belgian Blonde Ale</h3>
 				<p className='mt-5'>
 					Ya sea para novatos que incursionan al mundo de la cerveza artesanal o
@@ -160,7 +160,7 @@ const Breweries = () => {
 						alt='imagen blonde referencia cerveza chakana chakana'
 					/>
 				</div>
-				<article className='mt-7'>
+				<article className='mt-7 text-sm lg:text-xl'>
 					<h3 className='text-white font-extrabold'>Evolución</h3>
 					<p className='mt-3'>
 						En comparación con muchos estilos belgas tradicionales como las
@@ -170,7 +170,7 @@ const Breweries = () => {
 						carácter original para atraer a un público más amplio.
 					</p>
 				</article>
-				<h5 className='mt-20 capitalize italic text-[0.8rem]m md:text-sm'>
+				<h5 className='mt-10 capitalize italic text-[0.8rem]m md:text-sm'>
 					nuestras cerevezas Blonde Ale
 				</h5>
 				<div className='lg:flex gap-4 justify-center items-center lg:gap-1 p-2 max-w-[77rem]'>
@@ -218,7 +218,7 @@ const Breweries = () => {
 									Cerveza Roja
 								</h3>
 							</div>
-							<p className='md:mt-20 mt-4 '>
+							<p className='md:mt-20 mt-4  '>
 								<b>Caracteristicas</b>: Estilo Irish red ale de 5% de alcohol
 								cerveza maltosa acaramelado por las maltas sutil aroma a
 								caramelo toffee con suaves notas a lúpulo baja en amargor y
@@ -250,7 +250,7 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-20  mt-10 lg:text-xl lg:text-justify '>
+				<article className='text-left leading-relaxed pt-10 pb-20  mt-10 lg:text-xl lg:text-justify text-sm'>
 					<h3 className='text-white font-extrabold'>Irish Red Ale</h3>
 					<p className='mt-3'>
 						Es una cerveza de fermentación alta, fácil de beber, tiene un color
@@ -277,7 +277,7 @@ const Breweries = () => {
 						alt='imagen blonde referencia cerveza chakana chakana'
 					/>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl   '>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl text-sm   '>
 					<h5 className='text-white font-extrabold'>Su Origen</h5>
 					<p className='mt-3'>
 						La elaboración de este estilo se la debemos a los Vikingos desde
@@ -303,7 +303,7 @@ const Breweries = () => {
 						className='h-auto-auto'
 					/>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-xl lg:text-justify  '>
+				<article className='text-left leading-relaxed pt-10  lg:text-xl lg:text-justify text-sm  '>
 					<h3 className='text-white font-extrabold '>Evolución</h3>
 					<p className='mt-3'>
 						A día de hoy, podemos encontrar un par de referencias más o menos
@@ -316,7 +316,7 @@ const Breweries = () => {
 						la misma medida.
 					</p>
 				</article>
-				<h3 className='text-center mt-20 capitalize italic text-[0.8rem]m md:text-sm'>
+				<h3 className='text-center mt-10 capitalize italic text-[0.8rem]m md:text-sm'>
 					Nuestras cerveceras Irish Red
 				</h3>
 				<div className='lg:flex gap-4 justify-center items-center lg:gap-1 p-2 max-w-[77rem]'>
@@ -391,7 +391,7 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl'>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl text-sm'>
 					<h3 className='text-white font-extrabold text-left'>
 						IPA India Pale Ale
 					</h3>
@@ -518,7 +518,7 @@ const Breweries = () => {
 						</div>
 					</div>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl text-sm  '>
 					<h3 className='text-white font-extrabold'>English Porter </h3>
 					<p className='mt-3'>
 						Una cerveza Ale que se caracteriza por su evidente color oscuro, que
@@ -535,7 +535,7 @@ const Breweries = () => {
 						className='lg:h-[35rem] lg:w-auto pt-10 pb-10 lg:p-8 rounded-xl'
 					/>
 				</div>
-				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl  '>
+				<article className='text-left leading-relaxed pt-10 pb-10 lg:text-justify lg:text-xl text-sm '>
 					<h3 className='text-white font-extrabold'>Su Origen</h3>
 					<p className='mt-3'>
 						Originada en Londres hace alrededor de 300 años, el estilo Porter

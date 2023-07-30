@@ -1,7 +1,7 @@
 import SocialIcons from './SocialIcons';
 const Footer = () => {
 	return (
-		<div className='flex justify-center flex-col flex-wrap items-center  text-black text-center mt-20  pb-10 text-[15px]'>
+		<div className='flex justify-center flex-col flex-wrap items-center  text-black text-center mt-20 pt-8 pb-10 text-[15px]'>
 			<div>
 				<h4 className='font-bold'>{` Quito-Ecuador   ${new Date().getFullYear()}  `}</h4>
 				<h5 className='font-bold'>

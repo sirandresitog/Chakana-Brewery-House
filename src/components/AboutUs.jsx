@@ -8,7 +8,7 @@ import Image from 'next/image';
 const AboutUs = () => {
 	return (
 		<div>
-			<div className='flex justify-center items-center flex-wrap m-5 text-justify text-base p-1 lg:text-xl mt-0 font-semibold'>
+			<div className='flex justify-start items-center flex-wrap m-5 p-1  text-sm lg:text-xl mt-0 font-semibold'>
 				<Image
 					src={imgtop}
 					alt='kanaka Mirada Quisato'
@@ -38,7 +38,7 @@ const AboutUs = () => {
 						</figcaption>
 					</figure>
 				</div>
-				<div className='lg:grid grid-cols-2 justify-center items-center gap-5 bg-secondary mt-8 rounded-xl  '>
+				<div className='lg:grid grid-cols-2 justify-start items-center gap-5 bg-secondary mt-8 rounded-xl  '>
 					<figure className='inline-block h-full'>
 						<Image
 							src={concurso}
@@ -62,7 +62,7 @@ const AboutUs = () => {
 						a sacar una marca que nos represente en el mercado local.
 					</p>
 				</div>
-				<div className=' flex justify-center flex-col bg-white text-black mt-7 rounded-lg '>
+				<div className=' flex justify-start flex-col bg-white text-black mt-7 rounded-lg '>
 					<p className=' p-7 bg-tertiary text-gray-900 rounded-lg '>
 						Obteniendo así nuestro primer reconocimiento en un concurso de
 						cerveceros caseros iniciando con mucho ánimo y paso firme en este
@@ -91,21 +91,21 @@ const AboutUs = () => {
 				</div>
 				<div>
 					{/* card-gerent */}
-					<div className='lg:grid grid-cols-2 justify-center items-center  bg-quinary mt-8 rounded-xl pb-7 xl:p-0  '>
+					<div className='lg:grid grid-cols-2 justify-start items-center  bg-quinary mt-8 rounded-xl pb-7 xl:p-0  '>
 						<figure>
 							<Image
 								src={henrylozada}
-								alt='Ing. Henrry Lozada fundador de Chakana BrewHouse'
+								alt='Ing. Henry Lozada fundador de Chakana BrewHouse'
 								className='rounded-tl-xl rounded-tr-xl xl:rounded-tr-none'
 							/>
-							<figcaption className='text-center italic bg-slate-700 xl:rounded-bl-xl  lg:rounded-bl-xl text-xs '>
-								Henrry Ing. Henry Lozada Maestro Cervecero
+							<figcaption className='text-center italic bg-slate-700 xl:rounded-bl-xl  lg:rounded-bl-xl text-xs p-3'>
+								Ing. Henry Lozada Maestro Cervecero
 								<br /> Fundador Cerveceria Chakana BrewHouse
 							</figcaption>
 						</figure>
-						<div className=' flex  flex-col items-center mt-5'>
+						<div className=' flex  flex-col items-center mt-5 lg:text-base text-sm'>
 							<h5 className='font-extrabold'> MISIÓN </h5>
-							<p className='m-4 text-base'>
+							<p className='m-4 text-sm  lg:text-base'>
 								En Chakana Brewhouse buscamos brindar al mercado ecuatoriano una
 								cerveza artesanal de calidad con distinción en su sabor, color y
 								aroma, ofreciendo experiencias exclusivas y culturizando a
@@ -114,20 +114,22 @@ const AboutUs = () => {
 
 							<div className='flex  flex-col items-center bg-amber-50 text-black p-4'>
 								<h5 className='font-extrabold'>VISIÓN</h5>
-								<p className=' text-base text-start'>
+								<p className=' text-sm text-start'>
 									Ser una micro cervecería reconocida y competitiva a nivel
 									nacional e internacional ofreciendo a nuestros consumidores
 									cervezas de calidad
 								</p>
 							</div>
 							<h5 className='font-extrabold p-4'> VALORES</h5>
-							<ul className='text-base text-center '>
-								<li>Responsabilidad social y con el medio ambiente</li>
-								<li>Calidad de producto final</li>
-								<li>Innovación en procesos</li>
-								<li>Servicio al cliente</li>
-								<li>Mejora continua</li>
-								<li>Sostenibilidad</li>
+							<ul className='text-sm lg:text-base  '>
+								<li>
+									Responsabilidad social <br /> y con el medio ambiente.
+								</li>
+								<li>Calidad de producto final.</li>
+								<li>Innovación en procesos.</li>
+								<li>Servicio al cliente.</li>
+								<li>Mejora continua.</li>
+								<li>Sostenibilidad.</li>
 							</ul>
 						</div>
 					</div>
